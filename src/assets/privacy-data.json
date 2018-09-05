@@ -1,0 +1,426 @@
+[
+    {
+      "DATA_POINT": "About Me",
+      "WHAT_IS_IT": "Information you added to the About section of your timeline like relationships, work, education, where you live and more. It includes any updates or changes you made in the past and what is currently in the About section of your timeline.",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "COMMENT",
+      "APP_DEVELOPERS": "TAG",
+      "ADVERTISERS": "LOCATION"
+    },
+    {
+      "DATA_POINT": "Account Status History",
+      "WHAT_IS_IT": "The dates when your account was reactivated, deactivated, disabled or deleted.",
+      "FRIENDS": "",
+      "FRIENDS_OF_FRIENDS": "SHARE",
+      "APP_DEVELOPERS": "",
+      "ADVERTISERS": ""
+    },
+    {
+      "DATA_POINT": "Active Sessions",
+      "WHAT_IS_IT": "All stored active sessions, including date, time, device, IP address, machine cookie and browser information.",
+      "FRIENDS": "",
+      "FRIENDS_OF_FRIENDS": "SHARE|LOCATION",
+      "APP_DEVELOPERS": "COMMENT",
+      "ADVERTISERS": ""
+    },
+    {
+      "DATA_POINT": "Ads Clicked",
+      "WHAT_IS_IT": "Dates, times and titles of ads clicked (limited retention period).",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "",
+      "APP_DEVELOPERS": "COMMENT",
+      "ADVERTISERS": "SHARE"
+    },
+    {
+      "DATA_POINT": "Address",
+      "WHAT_IS_IT": "Your current address or any past addresses you had on your account.",
+      "FRIENDS": "",
+      "FRIENDS_OF_FRIENDS": "",
+      "APP_DEVELOPERS": "COMMENT",
+      "ADVERTISERS": "SHARE"
+    },
+    {
+      "DATA_POINT": "Ad Topics",
+      "WHAT_IS_IT": "A list of topics that you may be targeted against based on your stated likes, interests and other data you put in your timeline.",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "SHARE|LOCATION",
+      "APP_DEVELOPERS": "COMMENT",
+      "ADVERTISERS": "SHARE"
+    },
+    {
+      "DATA_POINT": "Alternate Name",
+      "WHAT_IS_IT": "Any alternate names you have on your account (ex: a maiden name or a nickname).",
+      "FRIENDS": "",
+      "FRIENDS_OF_FRIENDS": "SHARE|LOCATION",
+      "APP_DEVELOPERS": "COMMENT",
+      "ADVERTISERS": "SHARE"
+    },
+    {
+      "DATA_POINT": "Apps",
+      "WHAT_IS_IT": "All of the apps you have added.",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "SHARE|LOCATION",
+      "APP_DEVELOPERS": "COMMENT",
+      "ADVERTISERS": "SHARE"
+    },
+    {
+      "DATA_POINT": "Birthday Visibility",
+      "WHAT_IS_IT": "How your birthday appears on your timeline.",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "",
+      "APP_DEVELOPERS": "COMMENT",
+      "ADVERTISERS": "SHARE"
+    },
+    {
+      "DATA_POINT": "Chat",
+      "WHAT_IS_IT": "A history of the conversations youve had on Facebook Chat (a complete history is available directly from your messages inbox).",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "",
+      "APP_DEVELOPERS": "COMMENT",
+      "ADVERTISERS": ""
+    },
+    {
+      "DATA_POINT": "Check-ins",
+      "WHAT_IS_IT": "The places youve checked into.",
+      "FRIENDS": "",
+      "FRIENDS_OF_FRIENDS": "SHARE|LOCATION",
+      "APP_DEVELOPERS": "",
+      "ADVERTISERS": ""
+    },
+    {
+      "DATA_POINT": "Currency",
+      "WHAT_IS_IT": "Your preferred currency on Facebook. If you use Facebook Payments, this will be used to display prices and charge your credit cards.",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "SHARE|LOCATION",
+      "APP_DEVELOPERS": "",
+      "ADVERTISERS": ""
+    },
+    {
+      "DATA_POINT": "Current City",
+      "WHAT_IS_IT": "The city you added to the About section of your timeline.",
+      "FRIENDS": "",
+      "FRIENDS_OF_FRIENDS": "SHARE|LOCATION",
+      "APP_DEVELOPERS": "",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Date of Birth",
+      "WHAT_IS_IT": "The date you added to Birthday in the About section of your timeline.",
+      "FRIENDS": "",
+      "FRIENDS_OF_FRIENDS": "SHARE|LOCATION",
+      "APP_DEVELOPERS": "",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Education",
+      "WHAT_IS_IT": "Any information you added to Education field in the About section of your timeline.",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "SHARE|LOCATION",
+      "APP_DEVELOPERS": "",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Emails",
+      "WHAT_IS_IT": "Email addresses added to your account (even those you may have removed).",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "",
+      "APP_DEVELOPERS": "",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Events",
+      "WHAT_IS_IT": "Events youve joined or been invited to.",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "UPDATESTATUS",
+      "APP_DEVELOPERS": "",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Facial Recognition Data",
+      "WHAT_IS_IT": "A unique number based on a comparison of the photos you're tagged in. We use this data to help others tag you in photos.",
+      "FRIENDS": "",
+      "FRIENDS_OF_FRIENDS": "UPDATESTATUS",
+      "APP_DEVELOPERS": "",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Family",
+      "WHAT_IS_IT": "Friends youve indicated are family members.",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "UPDATESTATUS",
+      "APP_DEVELOPERS": "",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Favorite Quotes",
+      "WHAT_IS_IT": "Information youve added to the Favorite Quotes section of the About section of your timeline.",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "UPDATESTATUS",
+      "APP_DEVELOPERS": "",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Followers",
+      "WHAT_IS_IT": "A list of people who follow you.",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "UPDATESTATUS",
+      "APP_DEVELOPERS": "LIKE",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Friend Requests",
+      "WHAT_IS_IT": "Pending sent and received friend requests.",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "UPDATESTATUS",
+      "APP_DEVELOPERS": "LIKE",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Friends",
+      "WHAT_IS_IT": "A list of your friends.",
+      "FRIENDS": "",
+      "FRIENDS_OF_FRIENDS": "UPDATESTATUS",
+      "APP_DEVELOPERS": "LIKE",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Gender",
+      "WHAT_IS_IT": "The gender you added to the About section of your timeline.",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "UPDATESTATUS",
+      "APP_DEVELOPERS": "LIKE",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Groups",
+      "WHAT_IS_IT": "A list of groups you belong to on Facebook.",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "",
+      "APP_DEVELOPERS": "LIKE",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Hidden from News Feed",
+      "WHAT_IS_IT": "Any friends, apps or pages youve hidden from your News Feed.",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "UPDATESTATUS",
+      "APP_DEVELOPERS": "LIKE",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Hometown",
+      "WHAT_IS_IT": "The place you added to hometown in the About section of your timeline.",
+      "FRIENDS": "",
+      "FRIENDS_OF_FRIENDS": "UPDATESTATUS",
+      "APP_DEVELOPERS": "LIKE",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "IP Addresses",
+      "WHAT_IS_IT": "A list of IP addresses where youve logged into your Facebook account (wont include all historical IP addresses as they are deleted according to a retention schedule).",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "UPDATESTATUS",
+      "APP_DEVELOPERS": "LIKE",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Locale",
+      "WHAT_IS_IT": "The language you've selected to use Facebook in.",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "",
+      "APP_DEVELOPERS": "LIKE",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Logins",
+      "WHAT_IS_IT": "IP address, date and time associated with logins to your Facebook account.",
+      "FRIENDS": "LIKE|COMMENT|SHARE|TAG|UPDATESTATUS|LOCATION",
+      "FRIENDS_OF_FRIENDS": "UPDATESTATUS",
+      "APP_DEVELOPERS": "LIKE",
+      "ADVERTISERS": ""
+    },
+    {
+      "DATA_POINT": "Logouts",
+      "WHAT_IS_IT": "IP address, date and time associated with logouts from your Facebook account.",
+      "FRIENDS": "LIKE",
+      "FRIENDS_OF_FRIENDS": "",
+      "APP_DEVELOPERS": "",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Messages",
+      "WHAT_IS_IT": "Messages youve sent and received on Facebook. Note, if you've deleted a message it won't be included in your download as it has been deleted from your account.",
+      "FRIENDS": "",
+      "FRIENDS_OF_FRIENDS": "",
+      "APP_DEVELOPERS": "",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Name",
+      "WHAT_IS_IT": "The name on your Facebook account.",
+      "FRIENDS": "",
+      "FRIENDS_OF_FRIENDS": "LIKE",
+      "APP_DEVELOPERS": "",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Name Changes",
+      "WHAT_IS_IT": "Any changes youve made to the original name you used when you signed up for Facebook.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "",
+      "APP_DEVELOPERS": "",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Networks",
+      "WHAT_IS_IT": "Networks (affiliations with schools or workplaces) that you belong to on Facebook.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "",
+      "APP_DEVELOPERS": "",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Pages You Admin",
+      "WHAT_IS_IT": "A list of pages you admin.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "SHARE",
+      "APP_DEVELOPERS": "COMMENT|TAG",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Pending Friend Requests",
+      "WHAT_IS_IT": "Pending sent and received friend requests.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "SHARE",
+      "APP_DEVELOPERS": "COMMENT|TAG",
+      "ADVERTISERS": ""
+    },
+    {
+      "DATA_POINT": "Phone Numbers",
+      "WHAT_IS_IT": "Mobile phone numbers youve added to your account, including verified mobile numbers you've added for security purposes.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "SHARE",
+      "APP_DEVELOPERS": "COMMENT|TAG",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Photos",
+      "WHAT_IS_IT": "Photos youve uploaded to your account.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "SHARE",
+      "APP_DEVELOPERS": "",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Photos Metadata",
+      "WHAT_IS_IT": "Any metadata that is transmitted with your uploaded photos.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "SHARE",
+      "APP_DEVELOPERS": "COMMENT|TAG",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Physical Tokens",
+      "WHAT_IS_IT": "Badges youve added to your account.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "SHARE",
+      "APP_DEVELOPERS": "COMMENT|TAG",
+      "ADVERTISERS": ""
+    },
+    {
+      "DATA_POINT": "Pokes",
+      "WHAT_IS_IT": "A list of whos poked you and who youve poked. Poke content from our mobile poke app is not included because it's only available for a brief period of time. After the recipient has viewed the content it's permanently deleted from our systems.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "",
+      "APP_DEVELOPERS": "COMMENT|TAG",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Political Views",
+      "WHAT_IS_IT": "Any information you added to Political Views in the About section of timeline.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "SHARE",
+      "APP_DEVELOPERS": "COMMENT|TAG",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Posts by Others",
+      "WHAT_IS_IT": "Anything posted to your timeline by someone else, like wall posts or links shared on your timeline by friends.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "SHARE",
+      "APP_DEVELOPERS": "COMMENT|TAG",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Recent Activities",
+      "WHAT_IS_IT": "Actions youve taken and interactions youve recently had.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "SHARE",
+      "APP_DEVELOPERS": "COMMENT|TAG",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Registration Date",
+      "WHAT_IS_IT": "The date you joined Facebook.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "SHARE",
+      "APP_DEVELOPERS": "COMMENT|TAG",
+      "ADVERTISERS": ""
+    },
+    {
+      "DATA_POINT": "Religious Views",
+      "WHAT_IS_IT": "The current information you added to Religious Views in the About section of your timeline.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "SHARE",
+      "APP_DEVELOPERS": "COMMENT|TAG",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Removed Friends",
+      "WHAT_IS_IT": "People youve removed as friends.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "SHARE",
+      "APP_DEVELOPERS": "",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Screen Names",
+      "WHAT_IS_IT": "The screen names youe added to your account, and the service theyre associated with. You can also see if theyre hidden or visible on your account.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "SHARE",
+      "APP_DEVELOPERS": "COMMENT|TAG",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Spoken Languages",
+      "WHAT_IS_IT": "The languages you added to Spoken Languages in the Aboutsection of your timeline.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "SHARE",
+      "APP_DEVELOPERS": "COMMENT|TAG",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Status Updates",
+      "WHAT_IS_IT": "Any status updates youve posted.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "",
+      "APP_DEVELOPERS": "COMMENT|TAG",
+      "ADVERTISERS": ""
+    },
+    {
+      "DATA_POINT": "Work",
+      "WHAT_IS_IT": "Any current information youve added to Work in the About section of your timeline.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "SHARE",
+      "APP_DEVELOPERS": "COMMENT|TAG",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    },
+    {
+      "DATA_POINT": "Videos",
+      "WHAT_IS_IT": "Videos youve posted to your timeline.",
+      "FRIENDS": "TAG",
+      "FRIENDS_OF_FRIENDS": "SHARE",
+      "APP_DEVELOPERS": "COMMENT|TAG",
+      "ADVERTISERS": "LIKE|SHARE|TAG"
+    }
+  ]

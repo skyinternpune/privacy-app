@@ -1,0 +1,69 @@
+<div class="container">
+    <h1 class="m-1 pb-2 shadow-sm" style="text-align:center;">Privacy Data</h1>   
+    <div class="m-1 pb-1 btn-group btn-group-toggle" style="text-align:center;">
+            <label class="btn-primary" ngbButtonLabel>
+              <input type="checkbox" ngbButton  (click)="sortList('LIKE')"> Like
+            </label>
+            <label class="btn-primary" ngbButtonLabel>
+              <input type="checkbox" ngbButton  (click)="sortList('COMMENT')"> Comment
+            </label>
+            <label class="btn-primary" ngbButtonLabel>
+              <input type="checkbox" ngbButton   (click)="sortList('SHARE')"> Share
+            </label>
+            <label class="btn-primary" ngbButtonLabel>
+                <input type="checkbox" ngbButton (click)="sortList('TAG')"> Tag
+            </label>
+            <label class="btn-primary" ngbButtonLabel>
+                <input type="checkbox" ngbButton  (click)="sortList('UPDATESTATUS')"> Update Status
+            </label>
+            <label class="btn-primary" ngbButtonLabel>
+                <input type="checkbox" ngbButton  (click)="sortList('LOCATION')"> Location
+            </label>
+          </div>
+    
+      <table class="table table-hover table-sm" *ngIf="privacyList.length===0">
+        <thead class="thead-light">
+          <tr>
+            <th *ngFor="let head of privacyHeader | privacyPipe">
+              <span *ngIf="head!=='WHAT_IS_IT'" style="text-transform: capitalize;">{{ formatHeader(head) }}</span>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of privacyData">
+            <td *ngFor="let key of item | privacyPipe">
+              <span *ngIf="item[key]===item.DATA_POINT">
+                <a [attr.id]="removeSpaces(item.DATA_POINT)" href="#" data-toggle="popover" [attr.data-content]="item.WHAT_IS_IT" 
+                (click)="removeSpaces(getPopoverContent(item.DATA_POINT))">{{ item.DATA_POINT}}</a>
+              </span>
+              <i class="fa fa-check fa-1x w-75" style="color: green; text-align: center;" *ngIf="item[key]!==item.DATA_POINT && item[key]!==item.WHAT_IS_IT && item[key]!==''"></i>
+              <i class="fa fa-times fa-1x w-75" style="color: orangered; text-align: center;" *ngIf="item[key]!==item.DATA_POINT && item[key]!==item.WHAT_IS_IT && item[key]===''"></i>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="table table-hover table-sm" *ngIf="privacyList.length!==0">
+        <thead class="thead-dark">
+          <tr>
+            <th *ngFor="let head of privacyHeader | privacyPipe">
+              <span *ngIf="head!=='WHAT_IS_IT'" style="text-transform: capitalize;">{{ formatHeader(head) }}</span>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of privacyData">
+            <td *ngFor="let key of item | privacyPipe">
+              <span *ngIf="item[key]===item.DATA_POINT">
+                <a [attr.id]="removeSpaces(item.DATA_POINT)" href="#" data-toggle="popover" [attr.data-content]="item.WHAT_IS_IT" 
+                (click)="removeSpaces(getPopoverContent(item.DATA_POINT))">{{ item.DATA_POINT}}</a>
+              </span>
+              <i class="fa fa-check fa-1x w-75" style="color: green; text-align: center;" *ngIf="item[key]!==item.DATA_POINT && item[key]!==item.WHAT_IS_IT && sortItem(item[key])"></i>
+              <i class="fa fa-times fa-1x w-75" style="color: orangered; text-align: center;" *ngIf="item[key]!==item.DATA_POINT && item[key]!==item.WHAT_IS_IT && !sortItem(item[key])"></i>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      
+      </div>
+      

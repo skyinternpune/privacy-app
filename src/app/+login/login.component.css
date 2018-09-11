@@ -5,3 +5,7 @@ table.table-hover tbody tr:hover {
 .pointer{
     cursor:pointer;
 }
+
+.container .btn .btn-success{
+    background-color: #3B5998;
+}

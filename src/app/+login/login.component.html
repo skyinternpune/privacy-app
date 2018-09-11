@@ -1,0 +1,22 @@
+<div class="container">
+  <h1 class="m-1 pb-2 shadow-sm" style="text-align:center;">Privacy Data</h1>
+  <img class="pointer" src="../../assets/images/facebook-sign-in-button.png" alt="facebook" width="300" height="80"
+    (click)="logIn('')">
+  <button class="btn btn-primary" (click)="logIn('mock')">
+    <i class="fa fa-facebook"></i>Mock Metadata
+  </button>
+  <table class="table table-striped table-sm table-hover" *ngIf="fbData.length>0">
+    <thead class="thead-dark">
+      <tr>
+        <th>Field</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let val of fbData">
+        <td>{{val[0]}}</td>
+        <td>{{val[1] | json}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

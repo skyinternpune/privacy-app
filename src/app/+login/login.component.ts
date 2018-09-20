@@ -43,7 +43,7 @@ export class LoginComponent implements OnInit {
                 });
         } else {
             FB.api(
-                "/" + userId + '?fields=id,name,first_name,email,gender,picture.width(150).height(150),age_range,friends',
+                "/" + userId + '?fields=id,name,about,address,birthday,education,email,gender,hometown,languages,location,work,relationship_status,friends,groups,family',
                 (result) => {
                     this.fbData = Object.entries(result);
                 });

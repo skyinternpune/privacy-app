@@ -11,7 +11,7 @@ export class LoginComponent implements OnInit {
     private fbData = [];
     constructor() {
         FB.init({
-            appId: '549738592144886', //firbase-494423364407487 //local- 2185254965024376
+            appId: '467806280350665', //firbase-494423364407487 //local- 2185254965024376
             cookie: false,
             xfbml: true,
             version: 'v3.1'

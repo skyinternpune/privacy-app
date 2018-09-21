@@ -31,7 +31,7 @@ export class LoginComponent implements OnInit {
                 // they are logged into this app or not.
             }
 
-        }, { scope: 'public_profile,user_birthday,email,user_location,user_gender' });
+        }, { scope: 'public_profile,user_friends,email' });
     }
 
     getProfileDetails(userId, accessToken, fieldValue) {
